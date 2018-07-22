@@ -5,6 +5,7 @@
 <%@ page import="model.DatailPlace.Review" %>
 <%@ page import="model.DatailPlace.PlaceDetail" %>
 <%@ page import="java.net.URL" %>
+<%@ page import="util.Const" %>
 <%--
   Created by IntelliJ IDEA.
   User: jane
@@ -29,7 +30,7 @@
     ArrayList<String> listid = (ArrayList<String>) request.getAttribute("id.idplace");
     String username = (String) request.getParameter("username");
     String email = request.getParameter("email");
-    String key = "AIzaSyD10Kvbzi5iBuTuJ3l6EjRtx7JQS886XI4";
+    String key = Const.KEY ;
     String placeid = "ChIJkW2QhCya4jARcyT8c7AFblk";
     ObjectMapper objectMapper = new ObjectMapper();
 

@@ -30,7 +30,7 @@ public class UpdateSelect {
         String distance;
         String mode = param.getMode() ;
         final String units = "metric";
-        final String dis_KEY = "AIzaSyDHhsw_-_bGWp7LNTpAwl1EIA83smzGwnc";
+        String dis_KEY = Const.dis_KEY ;
 
         try {
             for(int i=0,j=i+1 ;j<location.size() ;i++,j++){

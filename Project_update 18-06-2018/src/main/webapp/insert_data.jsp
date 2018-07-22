@@ -166,6 +166,7 @@
                 var lng = position.coords.longitude ;
                 document.getElementById("lat").value = lat ;
                 document.getElementById("lng").value = lng ;
+                console.log(lat+""+lng);
 
 
                 var geocoder = new google.maps.Geocoder();

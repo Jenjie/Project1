@@ -5,6 +5,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="model.DatailPlace.Photos" %>
 <%@ page import="model.DatailPlace.Review" %>
+<%@ page import="util.Const" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
@@ -12,7 +13,7 @@
     String email = (String) request.getParameter("email");
     String idplace = (String) request.getParameter("idplace");
 
-    String key = "AIzaSyD10Kvbzi5iBuTuJ3l6EjRtx7JQS886XI4";
+    String key = Const.KEY ;
     String placeid = "ChIJkW2QhCya4jARcyT8c7AFblk";
     ObjectMapper objectMapper = new ObjectMapper();
 

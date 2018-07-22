@@ -69,7 +69,7 @@
             <button  class="g-signin "
                      data-scope="https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email"
                      data-requestvisibleactions="http://schemas.google.com/AddActivity"
-                     data-clientId="462831984997-47o8udcnaagao8mpi6lvp8gb423qlq47.apps.googleusercontent.com"
+                     data-clientId="1038384716327-5f00ne49c2gusautapltl6g9fn1o8uhr.apps.googleusercontent.com"
                      data-accesstype="offline"
                      data-callback="mycoddeSignIn"
                      data-theme="dark"

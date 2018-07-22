@@ -185,7 +185,7 @@
                 }
             }
             function PositionError(error) {
-                window.alert(error.message);
+                console.log(error.message);
             }
         </script>
         <!-------------Loading Image------------------>

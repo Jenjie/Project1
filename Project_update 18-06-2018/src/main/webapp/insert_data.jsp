@@ -4,13 +4,14 @@
 
 <head>
     <title>Travel Guide</title>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <!--boostrap-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9GssMwF8bMW6iHpUNpLDqUuMX0P85Tmg&libraries=geometry,places">
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="Image/travel.png">
 
     <style>
@@ -84,7 +85,7 @@
                         <p>*Please click "get location" for access current location</p>
                         <input type="hidden" value="" name="req.lat" id="lat">
                         <input type="hidden" value="" name="req.lng" id="lng">
-                        <input type="text" value="" name="req.idplace" id="idplace">
+                        <input type="hidden" value="" name="req.idplace" id="idplace">
                     </div>
                 </div>
                 <div class="form-group" style="padding: 0 30px 0 30px">
@@ -157,7 +158,7 @@
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(showPosition,PositionError);
                 } else {
-                    console.log("Geolocation is not supported by this browser.");
+                    lat.innerHTML = "Geolocation is not supported by this browser.";
                 }
             }
             function showPosition(position) {
@@ -165,6 +166,8 @@
                 var lng = position.coords.longitude ;
                 document.getElementById("lat").value = lat ;
                 document.getElementById("lng").value = lng ;
+                console.log(lat+""+lng);
+
 
                 var geocoder = new google.maps.Geocoder();
                 var latLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
@@ -176,7 +179,7 @@
                             var idplace = results[0].place_id;
                             document.getElementById("slocation").value = x ;
                             document.getElementById("idplace").value = idplace ;
-                            console.log("current your location :"+document.getElementById("slocation").value);
+                            console.log(x);
                         }
                         else {
                             console.log("Geocoding failed: " + status);
@@ -185,7 +188,7 @@
                 }
             }
             function PositionError(error) {
-                window.alert(error.message);
+                console.log(error.message);
             }
         </script>
         <!-------------Loading Image------------------>

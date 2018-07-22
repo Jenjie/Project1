@@ -1,6 +1,5 @@
 package model.Parameter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class ReqParam {
@@ -8,7 +7,7 @@ public class ReqParam {
     private String slocation ;
     private String lat ;
     private String lng ;
-    private List<String> types = new ArrayList<>();
+    private List<String> types = new ArrayList<String>();
     private String mode ;
     private int stay;
     private int hour ;

@@ -67,7 +67,7 @@ public  class Map {
                 }
             }
         }
-        resultsList.get(0).setName(location_name);
+        resultsList.get(0).setName("Start");
         resultsList.get(0).getGeometry().getLocation().setLat(Double.parseDouble(lat));
         resultsList.get(0).getGeometry().getLocation().setLng(Double.parseDouble(lng));
         resultsList.get(0).setVicinity(location_name);

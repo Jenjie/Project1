@@ -153,42 +153,22 @@
         </div>
         <div class="col-lg-3"></div>
         <!-- /.col-lg-3 -->
+        <!--Login google-->
         <script>
             function getLocation() {
                 if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(showPosition,PositionError);
+                    navigator.geolocation.getCurrentPosition(showPosition);
                 } else {
-                    lat.innerHTML = "Geolocation is not supported by this browser.";
+                    console.log("Geolocation is not supported by this browser.") ;
                 }
             }
             function showPosition(position) {
-                var lat = position.coords.latitude ;
+                var x = position.coords.latitude + "," + position.coords.longitude;
+                var lat = position.coords.latitude;
                 var lng = position.coords.longitude ;
-                document.getElementById("lat").value = lat ;
-                document.getElementById("lng").value = lng ;
-                console.log(lat+""+lng);
-
-
-                var geocoder = new google.maps.Geocoder();
-                var latLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
-                if (geocoder) {
-                    geocoder.geocode({ 'latLng': latLng}, function (results, status) {
-                        if (status == google.maps.GeocoderStatus.OK) {
-                            console.log(results[0].formatted_address);
-                            var x = results[0].formatted_address;
-                            var idplace = results[0].place_id;
-                            document.getElementById("slocation").value = x ;
-                            document.getElementById("idplace").value = idplace ;
-                            console.log(x);
-                        }
-                        else {
-                            console.log("Geocoding failed: " + status);
-                        }
-                    });
-                }
-            }
-            function PositionError(error) {
-                console.log(error.message);
+                document.getElementById('slocation').value = x ;
+                document.getElementById('lat').value = lat ;
+                document.getElementById('lng').value = lng ;
             }
         </script>
         <!-------------Loading Image------------------>

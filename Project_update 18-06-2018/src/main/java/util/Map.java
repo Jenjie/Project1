@@ -9,6 +9,7 @@ import model.Place.RespParam;
 import model.Place.Results;
 
 import java.io.StringWriter;
+import java.lang.reflect.Array;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -66,7 +67,7 @@ public  class Map {
                 }
             }
         }
-        resultsList.get(0).setName("Start");
+        resultsList.get(0).setName(location_name);
         resultsList.get(0).getGeometry().getLocation().setLat(Double.parseDouble(lat));
         resultsList.get(0).getGeometry().getLocation().setLng(Double.parseDouble(lng));
         resultsList.get(0).setVicinity(location_name);
@@ -103,7 +104,7 @@ public  class Map {
                                 "&destinations=" + resultsList.get(j).getGeometry().getLocation().getLat() + "," + resultsList.get(j).getGeometry().getLocation().getLng() +
                                 "&units=" + Const.units +
                                 "&mode=" + mode +
-                                "&key=" + Const.dis_KEY), Direction.class);
+                                "&key=" + Const.KEY), Direction.class);
                         distance = dt.getRows().get(0).getElements().get(0).getDuration().getText();
                         Split(distance,minute);
                     }

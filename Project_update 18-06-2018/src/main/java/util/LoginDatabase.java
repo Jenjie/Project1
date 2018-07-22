@@ -1,7 +1,6 @@
 package util;
 
 import model.Parameter.Personal;
-import model.Place.Results;
 
 import java.sql.*;
 

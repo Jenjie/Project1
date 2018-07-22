@@ -3,7 +3,6 @@ package util;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import model.Distance.Direction;
-import model.Parameter.ReqParam;
 import model.Parameter.parameter;
 
 import java.io.StringWriter;

@@ -3,14 +3,13 @@
 <html lang="en">
 
 <head>
-    <meta name="google-site-verification" content="dk7W2ZKlZVUOWWAnNRgt79uwnUCn6-l2pjtDBfMZm9E" />
     <title>Travel Guide</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;libraries=places"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="Image/travel.png">
 
@@ -85,7 +84,7 @@
                         <p>*Please click "get location" for access current location</p>
                         <input type="hidden" value="" name="req.lat" id="lat">
                         <input type="hidden" value="" name="req.lng" id="lng">
-                        <input type="hidden" value="" name="req.idplace" id="idplace">
+                        <input type="text" value="" name="req.idplace" id="idplace">
                     </div>
                 </div>
                 <div class="form-group" style="padding: 0 30px 0 30px">
@@ -153,22 +152,40 @@
         </div>
         <div class="col-lg-3"></div>
         <!-- /.col-lg-3 -->
-        <!--Login google-->
         <script>
             function getLocation() {
                 if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(showPosition);
+                    navigator.geolocation.getCurrentPosition(showPosition,PositionError);
                 } else {
-                    console.log("Geolocation is not supported by this browser.") ;
+                    console.log("Geolocation is not supported by this browser.");
                 }
             }
             function showPosition(position) {
-                var x = position.coords.latitude + "," + position.coords.longitude;
-                var lat = position.coords.latitude;
+                var lat = position.coords.latitude ;
                 var lng = position.coords.longitude ;
-                document.getElementById('slocation').value = x ;
-                document.getElementById('lat').value = lat ;
-                document.getElementById('lng').value = lng ;
+                document.getElementById("lat").value = lat ;
+                document.getElementById("lng").value = lng ;
+
+                var geocoder = new google.maps.Geocoder();
+                var latLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+                if (geocoder) {
+                    geocoder.geocode({ 'latLng': latLng}, function (results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            console.log(results[0].formatted_address);
+                            var x = results[0].formatted_address;
+                            var idplace = results[0].place_id;
+                            document.getElementById("slocation").value = x ;
+                            document.getElementById("idplace").value = idplace ;
+                            console.log("current your location :"+document.getElementById("slocation").value);
+                        }
+                        else {
+                            console.log("Geocoding failed: " + status);
+                        }
+                    });
+                }
+            }
+            function PositionError(error) {
+                window.alert(error.message);
             }
         </script>
         <!-------------Loading Image------------------>

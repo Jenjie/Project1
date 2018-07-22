@@ -9,7 +9,6 @@ import model.Place.RespParam;
 import model.Place.Results;
 
 import java.io.StringWriter;
-import java.lang.reflect.Array;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;

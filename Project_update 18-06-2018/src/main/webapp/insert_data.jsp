@@ -177,7 +177,6 @@
                             var idplace = results[0].place_id;
                             document.getElementById("slocation").value = x ;
                             document.getElementById("idplace").value = idplace ;
-                            window.alert("current your location :"+document.getElementById("slocation").value);
                         }
                         else {
                             console.log("Geocoding failed: " + status);

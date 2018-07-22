@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="search" class="action.ReqAction" method="login">
+            <result name="SUCCESS">insert_data.jsp</result>
+        </action>
+        <action name="list" class="action.ReqAction" method="reqparam">
+            <result name="SUCCESS">list.jsp</result>
+        </action>
+        <action name="result" class="action.ReqAction" method="time">
+            <result name="SUCCESS">time_planner.jsp</result>
+        </action>
+        <action name="showdata" class="action.ReqAction" method="showdata">
+            <result name="SUCCESS">ShowAllData.jsp</result>
+        </action>
+        <action name="waypoint" class="action.ReqAction" method="showmap">
+            <result name="SUCCESS">waypoint.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE project>
+<!-- Configuration of the Ant build system to generate a Jar file -->
+<project name="Bootstrap.jsp" default="jar">
+ 
+	<target name="classpath">
+        <path id="tomcat">
+            <fileset dir="/home/darrenscott/Abscissa/eclipse/tomcat/lib" includes="*.jar"/>
+		    <fileset dir="lib" includes="*.jar"/>
+		</path>
+	</target>
+
+	<target name="jar" description="Create Jar file" depends="tldgen">
+		<jar jarfile="dist/bootstrap.jsp.jar" basedir="build/classes" />
+	</target>
+
+	<target name="tldgen" description="Create taglib.tld" depends="classpath">
+		<javadoc access="private" useexternalfile="true" sourcepath="src" classpathref="tomcat" docletpathref="tomcat">
+			<doclet name="org.tldgen.TldDoclet">
+				<param name="-name" value="taglib"/>
+				<param name="-displayName" value="Bootstrap.jsp"/>
+				<param name="-uri" value="http://bootstrapjsp.org/"/>
+				<param name="-tldFolder" value="build/classes/META-INF"/>
+				<param name="-htmlFolder" value="docs/tags"/>
+			</doclet>
+		</javadoc>
+	</target>
+
+	<target name="docs" description="Create Javadocs" depends="classpath">
+		<javadoc access="private" useexternalfile="true" sourcepath="src" classpathref="tomcat" destdir="docs/api">
+		</javadoc>
+	</target>
+	
+</project>

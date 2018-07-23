@@ -67,7 +67,7 @@ public class BacktrackingAlgo {
             try {
                 if(emptylist!=null){
                     for(Results str : emptylist){
-                        String addsql = "INSERT INTO travel(id, sumRating, nameplace, lat, lng, address, type, id_place, reffer_photo, user_date, orderplace, person_email)  " +
+                        String addsql = "INSERT INTO travel(id, sumRating, nameplace, lat, lng, address, type, id_place, reffer_photo, user_date, orderplace, person_email,duration)  " +
                                 "VALUE('"+id+"','"+sumrate+"','"+str.getName()+"','"+str.getGeometry().getLocation().getLat()+"','"+str.getGeometry().getLocation().getLng()+"" +
                                 " ','"+str.getVicinity()+"','"+str.getType()+"','"+str.getPlace_id()+"','"+str.getPhotos().get(0).getPhoto_reference()+"'," +
                                 " '"+strDate+"','"+i+"','"+email+"')";
@@ -81,7 +81,6 @@ public class BacktrackingAlgo {
             System.out.println("SUCCESS");
 
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

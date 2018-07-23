@@ -1,9 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Struts2Example:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b7242aa4-3825-4eb7-b569-ca66f62a06d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_maps_google_maps_services_0_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/action/ReqAction.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/action/ReqAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Open.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Open.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Opening_hours.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Opening_hours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Periods.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Periods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Photos.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Photos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/PlaceDetail.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/PlaceDetail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Result.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Review.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/DatailPlace/Review.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/Direction.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/Direction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/Element.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/ElementListModel.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/ElementListModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/Value.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Distance/Value.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/Personal.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/Personal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/PlaceID.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/PlaceID.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/ReqParam.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/ReqParam.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/parameter.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Parameter/parameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Coordinates.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Coordinates.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Geometry.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Geometry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Opening_hours.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Opening_hours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Photos.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Photos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Pluscode.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Pluscode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/RespParam.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/RespParam.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Results.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Results.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Viewport.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/model/Place/Viewport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/BacktrackingAlgo.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/BacktrackingAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/ClearDB.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/ClearDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/Const.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/Const.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/LoginDatabase.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/LoginDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/Map.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/Map.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/SaveHistory.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/SaveHistory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/UpdateSelect.class" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/WEB-INF/classes/util/UpdateSelect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/action/ReqAction.class" afterPath="$PROJECT_DIR$/target/classes/action/ReqAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DatailPlace/Open.class" afterPath="$PROJECT_DIR$/target/classes/model/DatailPlace/Open.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DatailPlace/Opening_hours.class" afterPath="$PROJECT_DIR$/target/classes/model/DatailPlace/Opening_hours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DatailPlace/Periods.class" afterPath="$PROJECT_DIR$/target/classes/model/DatailPlace/Periods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DatailPlace/Photos.class" afterPath="$PROJECT_DIR$/target/classes/model/DatailPlace/Photos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DatailPlace/PlaceDetail.class" afterPath="$PROJECT_DIR$/target/classes/model/DatailPlace/PlaceDetail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DatailPlace/Result.class" afterPath="$PROJECT_DIR$/target/classes/model/DatailPlace/Result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/DatailPlace/Review.class" afterPath="$PROJECT_DIR$/target/classes/model/DatailPlace/Review.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Distance/Direction.class" afterPath="$PROJECT_DIR$/target/classes/model/Distance/Direction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Distance/Element.class" afterPath="$PROJECT_DIR$/target/classes/model/Distance/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Distance/ElementListModel.class" afterPath="$PROJECT_DIR$/target/classes/model/Distance/ElementListModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Distance/Value.class" afterPath="$PROJECT_DIR$/target/classes/model/Distance/Value.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Parameter/Personal.class" afterPath="$PROJECT_DIR$/target/classes/model/Parameter/Personal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Parameter/PlaceID.class" afterPath="$PROJECT_DIR$/target/classes/model/Parameter/PlaceID.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Parameter/ReqParam.class" afterPath="$PROJECT_DIR$/target/classes/model/Parameter/ReqParam.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Parameter/parameter.class" afterPath="$PROJECT_DIR$/target/classes/model/Parameter/parameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/Coordinates.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/Coordinates.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/Geometry.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/Geometry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/Opening_hours.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/Opening_hours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/Photos.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/Photos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/Pluscode.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/Pluscode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/RespParam.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/RespParam.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/Results.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/Results.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Place/Viewport.class" afterPath="$PROJECT_DIR$/target/classes/model/Place/Viewport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/BacktrackingAlgo.class" afterPath="$PROJECT_DIR$/target/classes/util/BacktrackingAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/ClearDB.class" afterPath="$PROJECT_DIR$/target/classes/util/ClearDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/Const.class" afterPath="$PROJECT_DIR$/target/classes/util/Const.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/LoginDatabase.class" afterPath="$PROJECT_DIR$/target/classes/util/LoginDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/Map.class" afterPath="$PROJECT_DIR$/target/classes/util/Map.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/SaveHistory.class" afterPath="$PROJECT_DIR$/target/classes/util/SaveHistory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/UpdateSelect.class" afterPath="$PROJECT_DIR$/target/classes/util/UpdateSelect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Struts2Example_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Struts2Example_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Struts2Example.iml" afterPath="$PROJECT_DIR$/Struts2Example.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/ReqAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/ReqAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Const.java" afterPath="$PROJECT_DIR$/src/main/java/util/Const.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/ShowAllData.jsp" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/ShowAllData.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/index.jsp" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/insert_data.jsp" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/insert_data.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/list.jsp" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/show_data.jsp" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/show_data.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/waypoint.jsp" afterPath="$PROJECT_DIR$/target/Struts2Example-com.mkyong.common/waypoint.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,61 +111,23 @@
       </path>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="heroku_bc560e3cff14c41@us-cdbr-iron-east-04.cleardb.net" type="e3449647:DbNodeDescriptor" />
-        <item name="heroku_bc560e3cff14c41" type="e3449647:DbNodeDescriptor" />
+        <item name="project@localhost" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="heroku_bc560e3cff14c41@us-cdbr-iron-east-04.cleardb.net" type="e3449647:DbNodeDescriptor" />
-        <item name="heroku_bc560e3cff14c41" type="e3449647:DbNodeDescriptor" />
-        <item name="travel" type="e3449647:DbNodeDescriptor" />
+        <item name="project@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="project" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="insert_data.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/insert_data.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="178" column="44" lean-forward="false" selection-start-line="178" selection-start-column="44" selection-end-line="178" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#center#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReqParam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Parameter/ReqParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="104" column="42" lean-forward="false" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+            <state relative-caret-position="983">
+              <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#728#739#0" expanded="true" />
@@ -92,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/806517b1-8c2e-4300-bbb4-9b0062b1c5de/console.sql">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1649">
+              <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -105,9 +150,14 @@
       <file leaf-file-name="ReqAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/action/ReqAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="159">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding>
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,33 +174,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+            <state relative-caret-position="785">
+              <caret line="81" column="57" lean-forward="false" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Const.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Const.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClearDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/ClearDB.java">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/340d11bc-8e79-4339-a87a-ed2f9d124277/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginDatabase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/LoginDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
-                <marker date="1532196569177" expanded="true" signature="567:681" ph="DELETE FROM " />
+                <element signature="imports" expanded="true" />
+                <marker date="1532295013845" expanded="true" signature="545:658" ph="SELECT email... person" />
+                <marker date="1532295013845" expanded="true" signature="785:886" ph="INSERT INTO person... " />
               </folding>
             </state>
           </provider>
@@ -159,10 +221,23 @@
       <file leaf-file-name="BacktrackingAlgo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/BacktrackingAlgo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="84" column="32" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+            <state relative-caret-position="-867">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <marker date="1532268118125" expanded="true" signature="2721:3261" ph="INSERT INTO travel... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClearDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/ClearDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <marker date="1532196569177" expanded="true" signature="567:681" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -196,9 +271,10 @@
         <option value="$PROJECT_DIR$/src/main/java/util/UpdateSelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/LoginDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Map.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Const.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/insert_data.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/action/ReqAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Const.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -208,6 +284,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -296,6 +379,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="Place" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts2Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_update 18-06-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,21 +408,6 @@
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="Struts2Example-com.mkyong.common" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Struts2Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_update 18-06-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts2Example-com.mkyong.common" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts2Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_update 18-06-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts2Example-com.mkyong.common" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -347,7 +424,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/.IntelliJIdea2017.2/idea-gitignore/lib/idea-gitignore-2.5.0.jar!/" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -370,7 +447,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="https://travel-guid.herokuapp.com/" />
+      <deployment>
+        <artifact name="Struts2Example:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Struts2Example_26" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58663" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Struts2Example:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -464,7 +613,7 @@
       <option name="presentableId" value="Default" />
       <updated>1532275207750</updated>
       <workItem from="1532275209821" duration="6784000" />
-      <workItem from="1532283402418" duration="9282000" />
+      <workItem from="1532283402418" duration="13849000" />
     </task>
     <task id="LOCAL-00001" summary="commit 98">
       <created>1532275448123</created>
@@ -599,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532300935312</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="commit 98">
+      <created>1532301050667</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1532301050667</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16066000" />
+    <option name="totallyTimeSpent" value="20633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -611,11 +767,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.47579426" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3897436" sideWeight="0.24659607" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.68759453" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07692308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -629,13 +787,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3897436" sideWeight="0.75340396" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -656,7 +813,101 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit 98" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/BacktrackingAlgo.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/BacktrackingAlgo.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/BacktrackingAlgo.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/BacktrackingAlgo.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/action/ReqAction.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/action/ReqAction.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/action/ReqAction.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/Map.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -665,21 +916,21 @@
         <state relative-caret-position="2873">
           <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#center#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#center#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,9 +1014,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,16 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="169" column="37" lean-forward="true" selection-start-line="169" selection-start-column="37" selection-end-line="169" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Place/Results.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -900,39 +1139,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/LoginDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1532295013845" expanded="true" signature="545:658" ph="SELECT email... person" />
-            <marker date="1532295013845" expanded="true" signature="785:886" ph="INSERT INTO person... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/ClearDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1532196569177" expanded="true" signature="567:681" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Parameter/ReqParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -942,33 +1152,21 @@
         <state relative-caret-position="8">
           <caret line="178" column="44" lean-forward="false" selection-start-line="178" selection-start-column="44" selection-end-line="178" selection-end-column="44" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#center#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="104" column="42" lean-forward="false" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#728#739#0" expanded="true" />
-            <element signature="e#792#801#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#1;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#center#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,24 +1176,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/action/ReqAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/BacktrackingAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="84" column="32" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
-          <folding>
-            <marker date="1532268118125" expanded="true" signature="2721:3261" ph="INSERT INTO travel... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,10 +1189,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ClearDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <marker date="1532196569177" expanded="true" signature="567:681" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/BacktrackingAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1532268118125" expanded="true" signature="2721:3261" ph="INSERT INTO travel... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/75085433/806517b1-8c2e-4300-bbb4-9b0062b1c5de/heroku_bc560e3cff14c41.person">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/LoginDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1532295013845" expanded="true" signature="545:658" ph="SELECT email... person" />
+            <marker date="1532295013845" expanded="true" signature="785:886" ph="INSERT INTO person... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/75085433/806517b1-8c2e-4300-bbb4-9b0062b1c5de/heroku_bc560e3cff14c41.travel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/340d11bc-8e79-4339-a87a-ed2f9d124277/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/ReqAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="983">
+          <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#728#739#0" expanded="true" />
+            <element signature="e#792#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+        <state relative-caret-position="785">
+          <caret line="81" column="57" lean-forward="false" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

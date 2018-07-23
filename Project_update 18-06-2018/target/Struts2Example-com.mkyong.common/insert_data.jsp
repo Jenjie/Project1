@@ -4,12 +4,13 @@
 
 <head>
     <title>Travel Guide</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9GssMwF8bMW6iHpUNpLDqUuMX0P85Tmg&libraries=geometry,places">
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;libraries=places"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="Image/travel.png">
 
@@ -165,6 +166,7 @@
                 var lng = position.coords.longitude ;
                 document.getElementById("lat").value = lat ;
                 document.getElementById("lng").value = lng ;
+                console.log(lat+""+lng);
 
 
                 var geocoder = new google.maps.Geocoder();
@@ -177,7 +179,7 @@
                             var idplace = results[0].place_id;
                             document.getElementById("slocation").value = x ;
                             document.getElementById("idplace").value = idplace ;
-                            window.alert("current your location :"+document.getElementById("slocation").value);
+                            console.log(x);
                         }
                         else {
                             console.log("Geocoding failed: " + status);
@@ -186,7 +188,7 @@
                 }
             }
             function PositionError(error) {
-                window.alert(error.message);
+                console.log(error.message);
             }
         </script>
         <!-------------Loading Image------------------>

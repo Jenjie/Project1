@@ -125,9 +125,6 @@
                     String strDate = dateFormat.format(date);
                     String email = (String) request.getAttribute("person.email");
 
-//                    String email = "secreat.story@gmail.com";
-//                    String strDate = "2018-28-17 11:28";
-
                     String sql = "SELECT id,sumRating,COUNT(id) quantity ,GROUP_CONCAT(DISTINCT nameplace ORDER BY orderplace ASC SEPARATOR '<br> - ') AS place, GROUP_CONCAT(DISTINCT type ORDER BY orderplace ASC SEPARATOR ', ') AS type  " +
                             "FROM travel " +
                             "WHERE user_date = '"+ strDate +"' AND person_email ='"+ email +"' " +
@@ -153,7 +150,6 @@
                             <button type="button" class="btn btn-info"> SELECT </button>
                         </a>
                         <button type="button" class="btn btn-basic disabled">Rating :<%=sumrating.get(j)%></button>
-                        <button type="button" class="btn btn-basic disabled">Quantity :<%=quantity.get(j)%></button>
                         <button type="button" class="btn btn-basic disabled"> <%=type.get(j)%></button>
                         <br>
                         <%=name.get(j)%>

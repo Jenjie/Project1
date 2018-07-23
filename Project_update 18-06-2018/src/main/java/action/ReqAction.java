@@ -54,6 +54,14 @@ public class ReqAction {
         this.p_id = p_id;
     }
 
+    public Map getMap() {
+        return map;
+    }
+
+    public void setMap(Map map) {
+        this.map = map;
+    }
+
     public String reqparam(){
         map.map(req,person);
         return "SUCCESS"  ;

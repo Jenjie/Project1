@@ -126,7 +126,7 @@
                     String email = (String) request.getAttribute("person.email");
 
                     String sql = "SELECT id,sumRating,COUNT(id) quantity ,GROUP_CONCAT(DISTINCT nameplace ORDER BY orderplace ASC SEPARATOR '<br> - ') AS place, GROUP_CONCAT(DISTINCT type ORDER BY orderplace ASC SEPARATOR ', ') AS type  " +
-                            "FROM travel " +
+                            "FROM travel1 " +
                             "WHERE user_date = '"+ strDate +"' AND person_email ='"+ email +"' " +
                             "GROUP BY id " +
                             "ORDER BY quantity DESC " ;

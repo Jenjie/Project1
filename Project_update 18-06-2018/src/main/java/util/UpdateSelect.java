@@ -60,7 +60,7 @@ public class UpdateSelect {
             s = connect.createStatement();
             String f_id = param.getF_id();
 
-            String sql = "UPDATE travel " +
+            String sql = "UPDATE travel1 " +
                     "SET duration = '"+minute+"' " +
                     "WHERE id='"+f_id+"' AND id_place ='"+idplace1+"' " ;
             s.execute(sql);

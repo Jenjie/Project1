@@ -1,0 +1,29 @@
+CREATE TABLE historytravel
+(
+    id_temp VARCHAR(20) NOT NULL PRIMARY KEY,
+    id VARCHAR(20),
+    email VARCHAR(100),
+    placeid VARCHAR(300),
+    duration VARCHAR(20),
+    nameplace VARCHAR(500),
+    stayplace VARCHAR(10),
+    user_date VARCHAR(100)
+);
+
+CREATE TABLE traveler
+(
+    id_temp VARCHAR(20) NOT NULL PRIMARY KEY,
+    id VARCHAR(20),
+    sumRating DOUBLE,
+    nameplace VARCHAR(100),
+    lat VARCHAR(50),
+    lng VARCHAR(50),
+    address VARCHAR(500),
+    type VARCHAR(40),
+    id_place VARCHAR(300),
+    reffer_photo VARCHAR(200),
+    user_date VARCHAR(50),
+    orderplace INT,
+    person_email VARCHAR(50),
+    duration VARCHAR(30)
+);

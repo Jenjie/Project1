@@ -117,7 +117,7 @@
                     s = connect.createStatement();
                     //query id
                     String sql = "SELECT nameplace,id_place,orderplace,lat,lng " +
-                            "FROM travel " +
+                            "FROM travel1 " +
                             "WHERE  id = '"+ p_id +"' " +
                             "ORDER BY orderplace ASC ";
                     ResultSet rec = s.executeQuery(sql);

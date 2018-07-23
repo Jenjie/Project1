@@ -34,7 +34,7 @@ public class SaveHistory {
             connect = DriverManager.getConnection(Const.urlConnect);
             s = connect.createStatement();
             String sql = "SELECT travel.id, travel.person_email, travel.id_place,travel.duration, travel.nameplace " +
-                    "FROM travel " +
+                    "FROM travel1 " +
                     "WHERE travel.id = '"+p_id+"' AND travel.id_place = '"+placeid+"' ";
             ResultSet rec = s.executeQuery(sql);
             while ((rec != null) && (rec.next())){

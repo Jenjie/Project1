@@ -51,6 +51,7 @@ public class BacktrackingAlgo {
     }
     public void DBbacktracking(List<Results> emptylist,int time ,double rating,int size,Personal personal,int id) {
         int i =1 ;
+        int range = 9999990 - 111110 + 1;
         String email = personal.getEmail();
         DecimalFormat df = new DecimalFormat("#0.00");
         double sumrate = Double.valueOf(df.format(rating/size)) ;
@@ -67,10 +68,11 @@ public class BacktrackingAlgo {
             try {
                 if(emptylist!=null){
                     for(Results str : emptylist){
-                        String addsql = "INSERT INTO travel(id, sumRating, nameplace, lat, lng, address, type, id_place, reffer_photo, user_date, orderplace, person_email,duration)  " +
-                                "VALUE('"+id+"','"+sumrate+"','"+str.getName()+"','"+str.getGeometry().getLocation().getLat()+"','"+str.getGeometry().getLocation().getLng()+"" +
+                        int idtemp = (int) (Math.random()* range) + 111111;
+                        String addsql = "INSERT INTO travel1 (id_temp, id, sumRating, nameplace, lat, lng, address, type, id_place, reffer_photo, user_date, orderplace, person_email, duration)   " +
+                                "VALUE('"+idtemp+"'+'"+id+"','"+sumrate+"','"+str.getName()+"','"+str.getGeometry().getLocation().getLat()+"','"+str.getGeometry().getLocation().getLng()+"" +
                                 " ','"+str.getVicinity()+"','"+str.getType()+"','"+str.getPlace_id()+"','"+str.getPhotos().get(0).getPhoto_reference()+"'," +
-                                " '"+strDate+"','"+i+"','"+email+"')";
+                                " '"+strDate+"','"+i+"','"+email+"',NULL )";
                         s.execute(addsql);
                         i++;
                     }

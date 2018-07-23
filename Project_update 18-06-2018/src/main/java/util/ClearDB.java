@@ -18,7 +18,7 @@ public class ClearDB {
             s = connect.createStatement();
             try {
                 String sql = "DELETE " +
-                        "FROM  travel " +
+                        "FROM  travel1 " +
                         "WHERE person_email = '" + email + "' ";
                 s.execute(sql);
             } catch (SQLException e) {
